@@ -109,7 +109,7 @@ export const phasesData: PhaseData[] = [
       },
       {
         id: 5,
-        text: '¿Qué se espera que hagan distinto?',
+        text: '¿Qué harán distinto?',
         type: 'textarea',
         placeholder: 'Describí la conducta observable que marcará que el cambio fue adoptado.\n\nEjemplo: "No usar más el sistema anterior y cargar X antes de las 12 hs"',
         required: true,

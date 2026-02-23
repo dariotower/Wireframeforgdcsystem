@@ -67,42 +67,55 @@ ${user?.name}`;
 
   return (
     <div className="min-h-screen bg-white flex items-center justify-center p-6">
-      <div className="w-full max-w-[600px] border-2 border-black p-12 text-center">
+      <div className="w-full max-w-[700px] border-2 border-black p-12">
         <div className="flex justify-center mb-8">
           <CheckCircle2 className="w-24 h-24 text-black" />
         </div>
 
-        <h1 className="text-[22px] font-extrabold leading-[30px] mb-4">
-          ✔ Recorrido completo
+        <h1 className="text-[22px] font-extrabold leading-[30px] mb-6 text-center">
+          ✅ Completaste tu Mapa del Cambio.
         </h1>
         
-        <p className="text-base leading-6 mb-12 opacity-90">
-          Gracias por diseñar tu cambio pensando en su adopción.
-          <br />
-          Cultura puede acompañarte si lo necesitás.
+        <p className="text-base leading-6 mb-8 text-center">
+          Ahora tu iniciativa tiene propósito claro, impacto definido y criterios de adopción medibles.
         </p>
 
-        <div className="space-y-4">
+        <div className="flex justify-center mb-10">
           <Button
             onClick={handleDownloadPDF}
-            className="w-full max-w-[360px] h-14 border-2 border-black bg-gray-200 hover:bg-gray-300 text-black text-base font-bold rounded-none flex items-center justify-center gap-2"
+            className="w-full max-w-[420px] h-14 border-2 border-black bg-gray-200 hover:bg-gray-300 text-black text-base font-bold rounded-none flex items-center justify-center gap-2"
           >
             <Download className="w-5 h-5" />
-            Descargar resumen
-          </Button>
-
-          <Button
-            onClick={handleScheduleMeeting}
-            className="w-full max-w-[360px] h-14 border-2 border-black bg-white hover:bg-gray-100 text-black text-base font-bold rounded-none flex items-center justify-center gap-2"
-          >
-            <Calendar className="w-5 h-5" />
-            Solicitar acompañamiento
+            📥 Descargar infografía de mi recorrido
           </Button>
         </div>
 
-        <p className="text-sm opacity-70 mt-8">
-          ¡Gracias por usar el Sistema GdC!
-        </p>
+        <div className="border-t-2 border-black pt-8">
+          <h2 className="text-lg font-bold mb-4">🧭 ¿Cómo seguimos?</h2>
+          
+          <p className="text-[15px] leading-6 mb-4">
+            Durante los próximos 15 días, <strong>Cultura convocará una Mesa de Acompañamiento al Cambio</strong> para repasar tu iniciativa junto al sponsor.
+          </p>
+
+          <div className="bg-gray-50 border-2 border-gray-300 p-6 mb-6">
+            <p className="text-sm font-semibold mb-3">En este espacio:</p>
+            <ul className="text-sm space-y-2 opacity-90">
+              <li>• El Sponsor presentará el propósito y la necesidad del cambio.</li>
+              <li>• El líder del proyecto detallará el alcance y el despliegue previsto.</li>
+              <li>• Se revisarán la claridad, los riesgos culturales y los indicadores de adopción definidos.</li>
+            </ul>
+          </div>
+
+          <p className="text-sm opacity-80 mb-6">
+            Si la iniciativa requiere fortalecerse metodológicamente, volverá a revisión antes de su implementación.
+          </p>
+
+          <p className="text-sm font-semibold text-center">
+            Gracias por diseñar tu cambio pensando en su adopción.
+            <br />
+            <span className="opacity-70">Cultura Distrocuyo</span>
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -30,7 +30,10 @@ export default function Map() {
       <div className="max-w-[1248px] mx-auto">
         {/* Top Bar */}
         <div className="border-2 border-black px-6 py-4 mb-12">
-          <h1 className="text-base font-semibold">GdC · Mapa del recorrido</h1>
+          <h1 className="text-base font-semibold">Mapa del Cambio</h1>
+          <p className="text-sm opacity-70 mt-2">
+            Todo cambio que conecta estrategia, personas, contexto y resultados desde una mirada sistémica, se diseña pensando estos 9 puntos clave.
+          </p>
         </div>
 
         {/* Phase Path */}

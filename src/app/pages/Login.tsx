@@ -24,22 +24,22 @@ export default function Login() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="border-2 border-black bg-gray-100 px-8 py-4">
-            <p className="text-base font-semibold">Logo GdC</p>
+            <p className="text-base font-semibold">GdeC</p>
           </div>
         </div>
 
         {/* Heading */}
         <h1 className="text-[28px] font-bold leading-[34px] mb-6">
-          Antes de lanzar tu cambio,
-          <br />
-          pensemos cómo se va a adoptar.
+          Antes de lanzar tu cambio, diseñemos su recorrido.
         </h1>
 
         {/* Body Text */}
         <p className="text-base leading-6 mb-8 opacity-80">
-          Este espacio te ayuda a ordenar tu cambio para que tenga más chances de adoptarse.
+          El éxito de un cambio no se mide por su anuncio, sino por su adopción.
           <br />
-          No es una evaluación. Es una herramienta para mejorar tu impacto.
+          Este espacio te acompaña a ordenar tu iniciativa para que tenga impacto real, liderazgo visible y resultados sostenibles.
+          <br />
+          No es una evaluación. Es una herramienta para potenciar tu cambio.
         </p>
 
         {/* Form */}
